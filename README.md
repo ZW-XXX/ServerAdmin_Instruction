@@ -33,3 +33,7 @@ I keep a brief README file for each new user available at `/home/{$data_admin_pa
     - User rule 5: For security, we do not allow our servers to connect to Internet.    
 #### (3) Public Database  
 Public databases are established to serve the research needs of most users in our group, including `imagenet`, `mscoco2017`, `mscoco2014`, most IQA databases and most DVC databases. 
+
+
+## Security Management
+Regularly check the login user, corresponding ip address and they are behaviors.
