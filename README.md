@@ -30,7 +30,6 @@ I keep a brief README file for each new user available at `/home/{$data_admin_pa
     * User rule 2: The pytorch version needs to be higher than 1.7 and above. Please update the code to suit Pytorch Version 1.7.0 or above. (Admin Rule: As an Admin, please do not update the CUDA version easily.)  
     * User rule 3: Please be careful with every command type in because it can be a potential risk. Particularly, please use commend `rm` with caution.  
     * User rule 4: Debugging on the server is not allowed.  
-    * User rule 5: For security, we do not allow our servers to connect to Internet.  
-
+    * User rule 5: For security, we do not allow our servers to connect to Internet.    
 (3) Public Database  
 Public databases are established to serve the research needs of most users in our group, including `imagenet`, `mscoco2017`, `mscoco2014`, most IQA databases and most DVC databases. 
