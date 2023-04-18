@@ -2,7 +2,7 @@
 
 
 
-1. Add new users by:
+1. Add new users by: \\
 ``` sudo useradd -r -m -s /bin/bash {$usr_name$} ```
 Some useful commends:
 (1) #Args:
