@@ -10,7 +10,7 @@ Some useful commends:
 `-m`：automatically create user login directory  
 `-s`：specify the shell used by the user after logging in  
 Once the users have been added, You can see that the user directory was successfully created by `ls /home/`  
-(2) In the Ubuntu 18.04 system, it will not automatically prompt to set a password when adding a user. Therefore, you need to do it manually as:  
+(2) In Ubuntu >=18.04, it will not automatically prompt to set a password when adding a user. Therefore, you need to do it manually as:  
 ``` sudo passwd {$usr_name$} ```  
   
 ### 2. Create the data folder in for new users by:  
