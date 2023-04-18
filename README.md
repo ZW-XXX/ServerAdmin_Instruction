@@ -2,24 +2,24 @@
 
 
 
-1. Add new users by: \\
+1. Add new users by:  
 ``` sudo useradd -r -m -s /bin/bash {$usr_name$} ```
-Some useful commends:
-(1) #Args:
-`-r`：add a new account
-`-m`：automatically create user login directory
-`-s`：specify the shell used by the user after logging in
-Once the users have been added, You can see that the user directory was successfully created by `ls /home/`
-(1) In the Ubuntu 18.04 system, it will not automatically prompt to set a password when adding a user. Therefore, you need to do it manually as:
-``` sudo passwd {$usr_name$} ```
-
-2. Create the data folder in for new users by:
-` sudo mkdir /{$data_disk_path$}/{$usr_data_path$}`
-Change the owner and group of the current file or directory into privacy:
-` sudo chown -r {$usr_name$} /{$data_disk_path$}/{$usr_data_path$}`
-After this specification, the authority of the file directory is on `{$usr_name$}`, who can add, delete, modify and access it arbitrarily, and anyone else, except the administrator, can only access it.
-
-3. Materials
+Some useful commends:  
+(1) #Args:  
+`-r`：add a new account  
+`-m`：automatically create user login directory  
+`-s`：specify the shell used by the user after logging in  
+Once the users have been added, You can see that the user directory was successfully created by `ls /home/`  
+(1) In the Ubuntu 18.04 system, it will not automatically prompt to set a password when adding a user. Therefore, you need to do it manually as:  
+``` sudo passwd {$usr_name$} ```  
+  
+2. Create the data folder in for new users by:  
+` sudo mkdir /{$data_disk_path$}/{$usr_data_path$}`  
+Change the owner and group of the current file or directory into privacy:  
+` sudo chown -r {$usr_name$} /{$data_disk_path$}/{$usr_data_path$}`  
+After this specification, the authority of the file directory is on `{$usr_name$}`, who can add, delete, modify and access it arbitrarily, and anyone else, except the administrator, can only access it.  
+  
+3. Materials  
 (1) Toolbox installation package
 Compared with other toolboxes, we would rather providing `Anaconda` installation packages than others. It is worth mentioning that `docker` is also supported and has installed on both server. However, docker often takes up more storage space when creating a single environment variable sample.
 I tend to update the Anaconda installation package in `/home/{$home_admin_path$}/Downloads/` every quarter, and copy a sample for each new user in their home directory `/home/{$home_usr_path$}/`.
