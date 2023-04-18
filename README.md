@@ -26,8 +26,8 @@ I tend to update the Anaconda installation package in `/home/{$home_admin_path$}
 (2) README file  
 I keep a brief README file for each new user available at `/home/{$data_admin_path$}/Downloads/README.txt`, and copy a sample for each new user in their home directory `/home/{$home_usr_path$}/`. Its content mainly includes:  
  The configuration of the Server, including the number of GPUs, memory capacity, NVIDIA-Driver version, and CUDA version.  
-  * User rule 1: Environment files can be placed in the home directory, while codes and databases should be placed in the data directory.  
-  * User Rule 2: The pytorch version needs to be higher than 1.7 and above. Please update the code to suit Pytorch Version 1.7.0 or above. (Admin Rule: As an Admin, please do not update the CUDA version easily.)  
-  * User Rule 3: Please be careful with every command type in because it can be a potential risk. Particularly, please use commend `rm` with caution.  
-  * User Rule 4: Debugging on the server is not allowed.  
-  * User Rule 5: For security, we do not allow our servers to connect to Internet.  
+    * User rule 1: Environment files can be placed in the home directory, while codes and databases should be placed in the data directory.  
+    * User Rule 2: The pytorch version needs to be higher than 1.7 and above. Please update the code to suit Pytorch Version 1.7.0 or above. (Admin Rule: As an Admin, please do not update the CUDA version easily.)  
+    * User Rule 3: Please be careful with every command type in because it can be a potential risk. Particularly, please use commend `rm` with caution.  
+    * User Rule 4: Debugging on the server is not allowed.  
+    * User Rule 5: For security, we do not allow our servers to connect to Internet.  
