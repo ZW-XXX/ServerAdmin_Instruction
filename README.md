@@ -36,4 +36,10 @@ Public databases are established to serve the research needs of most users in ou
 
 
 ## Security Management
-Regularly check the login user, corresponding ip address and they are behaviors.
+### 1. Regularly check in:  
+Regularly check the login user by `who`, corresponding ip address and they are behaviors by `top` or `htop`.
+Regularly check the usage of GPUs by `nvidia-smi`. 
+#### (1) Suspicious GPU usage    
+Some common behaviors include
+    - A small amount of memory for single or multiple GPUs (usually nearly 2G) is occupies.
+    - 
