@@ -41,5 +41,5 @@ Regularly check the login user by `who`, corresponding ip address and they are b
 Regularly check the usage of GPUs by `nvidia-smi`.     
 #### (1) Suspicious GPU usage    
 Some common behaviors include:    
-    - A small amount of memory for single or multiple GPUs (usually nearly 2G) is occupies.
+    - A small amount of memory for single or multiple GPUs (usually nearly 2G) is occupies.    
     - The famous commands for bitcoin mining `python restarts_count 0` with `config.ini` or `nano`.
