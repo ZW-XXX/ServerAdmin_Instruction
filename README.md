@@ -43,3 +43,5 @@ Regularly check the usage of GPUs by `nvidia-smi`.
 Some common behaviors include:    
     - A small amount of memory for single or multiple GPUs (usually nearly 2G) is occupies.    
     - The famous commands for bitcoin mining `python restarts_count 0` with `config.ini` or `nano`.
+    - Skyrockets of memory usage and it can not be observed by `top`.   
+    - `pnscan` exists usually under `/usr/local/bin` and strange `authorized keys` can be found under `root/.ssh` (for ssh login without passwd needed).
