@@ -35,11 +35,11 @@ I keep a brief README file for each new user available at `/home/{$data_admin_pa
 Public databases are established to serve the research needs of most users in our group, including `imagenet`, `mscoco2017`, `mscoco2014`, most IQA databases and most DVC databases. 
 
 
-## Security Management
-### 1. Regularly check in:  
-Regularly check the login user by `who`, corresponding ip address and they are behaviors by `top` or `htop`.
-Regularly check the usage of GPUs by `nvidia-smi`. 
+## Security Management    
+### 1. Regularly check in:     
+Regularly check the login user by `who`, corresponding ip address and they are behaviors by `top` or `htop`.    
+Regularly check the usage of GPUs by `nvidia-smi`.     
 #### (1) Suspicious GPU usage    
-Some common behaviors include
+Some common behaviors include:    
     - A small amount of memory for single or multiple GPUs (usually nearly 2G) is occupies.
-    - 
+    - The famous commands for bitcoin mining `python restarts_count 0` with `config.ini` or `nano`.
